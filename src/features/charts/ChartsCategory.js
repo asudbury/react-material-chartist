@@ -19,7 +19,7 @@ const ChartsCategory = (props) => {
     <div className={classes.root}>
       <Grid container spacing={2}>
         {chartsConfig.map((chart) => (
-          <Grid item xs={6} key={chart.title}>
+          <Grid item xs={12} md={6} key={chart.title}>
             <Chart chart={chart} />
           </Grid>
         ))}
