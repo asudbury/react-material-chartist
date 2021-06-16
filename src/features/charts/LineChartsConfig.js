@@ -1,3 +1,4 @@
+import LineChartSimple1Line from './data/line/LineChartSimple1Line';
 import LineChartSimple from './data/line/LineChartSimple';
 import LineChartHolesInData from './data/line/LineChartHolesInData';
 import LineChartFilledHolesInData from './data/line/LineChartFilledHolesInData';
@@ -12,6 +13,7 @@ import LineChartSeriesOverrides from './data/line/LineChartSeriesOverrides';
 import LineChartTimeSeries from './data/line/LineChartTimeSeries';
 
 const LineChartsConfig = [
+  LineChartSimple1Line,
   LineChartSimple,
   LineChartAdvancedSmilAnimations,
   LineChartSvgPathAnimation,

@@ -10,11 +10,9 @@ const BarChartLabelPlacement = {
   },
   options: {
     axisX: {
-      // On the x-axis start means top and end means bottom
       position: 'start'
     },
     axisY: {
-      // On the y-axis start means left and end means right
       position: 'end'
     }
   }
