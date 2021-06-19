@@ -13,7 +13,8 @@ import ChartsCategory from './ChartsCategory';
 
 const useStyles = makeStyles({
   tab: {
-    textTransform: 'none'
+    textTransform: 'none',
+    fontSize: '12px'
   }
 });
 
@@ -34,19 +35,19 @@ function Charts() {
               className={classes.tab}
               label="Line Charts"
               value="line"
-              icon={<TimelineIcon />}
+              icon={<TimelineIcon fontSize="small" />}
             />
             <Tab
               className={classes.tab}
               label="Bar Charts"
               value="bar"
-              icon={<BarChartIcon />}
+              icon={<BarChartIcon fontSize="small" />}
             />
             <Tab
               className={classes.tab}
               label="Pie Charts"
               value="pie"
-              icon={<PieChartIcon />}
+              icon={<PieChartIcon fontSize="small" />}
             />
           </Tabs>
         </AppBar>
